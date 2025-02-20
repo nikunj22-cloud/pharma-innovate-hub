@@ -20,7 +20,7 @@ const Index = () => {
               />
               <div className="flex flex-col">
                 <span className="text-[#0FB5B5] text-2xl font-bold tracking-wide">GRECO</span>
-                <span className="text-text text-sm font-medium tracking-wider">PHARMACEUTICALS</span>
+                <span className="text-[#4A5568] text-sm font-medium tracking-wider">PHARMACEUTICALS</span>
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
