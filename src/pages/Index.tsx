@@ -24,10 +24,10 @@ const Index = () => {
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Products</a>
-              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Research</a>
-              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">About</a>
-              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Contact</a>
+              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Products</a>
+              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Research</a>
+              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">About</a>
+              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Contact</a>
             </div>
             <button className="bg-[#0FB5B5] text-white px-6 py-2 rounded-full hover:bg-[#0A8F8F] transition-colors shadow-md">
               Healthcare Portal
@@ -46,10 +46,10 @@ const Index = () => {
               transition={{ duration: 0.5 }}
             >
               <span className="text-[#0FB5B5] font-semibold tracking-wide">ADVANCING HEALTHCARE</span>
-              <h1 className="mt-4 text-5xl font-bold text-text leading-tight">
+              <h1 className="mt-4 text-5xl font-bold text-[#1A202C] leading-tight">
                 Innovative Solutions for a Healthier Tomorrow
               </h1>
-              <p className="mt-6 text-text-light text-lg">
+              <p className="mt-6 text-[#4A5568] text-lg">
                 Dedicated to improving lives through groundbreaking pharmaceutical research and development. Our commitment brings hope to millions worldwide.
               </p>
               <div className="mt-8 flex space-x-4">
@@ -78,11 +78,11 @@ const Index = () => {
       </section>
 
       {/* Solutions Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#F8FAFC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-text">Our Solutions</h2>
-            <p className="mt-4 text-text-light">
+            <h2 className="text-3xl font-bold text-[#1A202C]">Our Solutions</h2>
+            <p className="mt-4 text-[#4A5568]">
               Discover our comprehensive range of pharmaceutical solutions designed to improve patient outcomes
             </p>
           </div>
@@ -113,8 +113,8 @@ const Index = () => {
                 className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
               >
                 <div className="text-[#0FB5B5] mb-4">{solution.icon}</div>
-                <h3 className="text-xl font-semibold text-text mb-2">{solution.title}</h3>
-                <p className="text-text-light">{solution.description}</p>
+                <h3 className="text-xl font-semibold text-[#1A202C] mb-2">{solution.title}</h3>
+                <p className="text-[#4A5568]">{solution.description}</p>
                 <button className="mt-4 text-[#0FB5B5] flex items-center hover:text-[#0A8F8F] transition-colors">
                   Learn more <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
@@ -141,10 +141,10 @@ const Index = () => {
               transition={{ duration: 0.5 }}
             >
               <span className="text-[#0FB5B5] font-semibold tracking-wide">INNOVATION HUB</span>
-              <h2 className="mt-4 text-3xl font-bold text-text">
+              <h2 className="mt-4 text-3xl font-bold text-[#1A202C]">
                 Leading the Future of Healthcare
               </h2>
-              <p className="mt-6 text-text-light">
+              <p className="mt-6 text-[#4A5568]">
                 Our state-of-the-art research facilities and dedicated team of scientists work tirelessly to develop breakthrough treatments and innovative healthcare solutions.
               </p>
               <div className="mt-8">
