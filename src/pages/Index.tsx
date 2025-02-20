@@ -11,17 +11,25 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-lg z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16 items-center">
-            <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-primary">PharmaCare</h1>
+          <div className="flex justify-between h-20 items-center">
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/8548c0c4-35b3-462d-a174-483a48ce8ae3.png" 
+                alt="Greco Pharmaceuticals Logo" 
+                className="h-12 w-auto"
+              />
+              <div className="flex flex-col">
+                <span className="text-[#0FB5B5] text-2xl font-bold tracking-wide">GRECO</span>
+                <span className="text-text text-sm font-medium tracking-wider">PHARMACEUTICALS</span>
+              </div>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#" className="text-text hover:text-primary transition-colors">Products</a>
-              <a href="#" className="text-text hover:text-primary transition-colors">Research</a>
-              <a href="#" className="text-text hover:text-primary transition-colors">About</a>
-              <a href="#" className="text-text hover:text-primary transition-colors">Contact</a>
+              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Products</a>
+              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Research</a>
+              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">About</a>
+              <a href="#" className="text-text hover:text-[#0FB5B5] transition-colors font-medium">Contact</a>
             </div>
-            <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark transition-colors">
+            <button className="bg-[#0FB5B5] text-white px-6 py-2 rounded-full hover:bg-[#0A8F8F] transition-colors shadow-md">
               Healthcare Portal
             </button>
           </div>
@@ -37,7 +45,7 @@ const Index = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-primary font-semibold">Advancing Healthcare</span>
+              <span className="text-[#0FB5B5] font-semibold tracking-wide">ADVANCING HEALTHCARE</span>
               <h1 className="mt-4 text-5xl font-bold text-text leading-tight">
                 Innovative Solutions for a Healthier Tomorrow
               </h1>
@@ -45,10 +53,10 @@ const Index = () => {
                 Dedicated to improving lives through groundbreaking pharmaceutical research and development. Our commitment brings hope to millions worldwide.
               </p>
               <div className="mt-8 flex space-x-4">
-                <button className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary-dark transition-colors flex items-center">
+                <button className="bg-[#0FB5B5] text-white px-8 py-3 rounded-full hover:bg-[#0A8F8F] transition-colors flex items-center shadow-md">
                   Explore Solutions <ChevronRight className="ml-2 h-5 w-5" />
                 </button>
-                <button className="border border-primary text-primary px-8 py-3 rounded-full hover:bg-primary/5 transition-colors">
+                <button className="border-2 border-[#0FB5B5] text-[#0FB5B5] px-8 py-3 rounded-full hover:bg-[#0FB5B5]/5 transition-colors">
                   Learn More
                 </button>
               </div>
@@ -70,7 +78,7 @@ const Index = () => {
       </section>
 
       {/* Solutions Section */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-text">Our Solutions</h2>
@@ -104,10 +112,10 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
               >
-                <div className="text-primary mb-4">{solution.icon}</div>
+                <div className="text-[#0FB5B5] mb-4">{solution.icon}</div>
                 <h3 className="text-xl font-semibold text-text mb-2">{solution.title}</h3>
                 <p className="text-text-light">{solution.description}</p>
-                <button className="mt-4 text-primary flex items-center hover:text-primary-dark transition-colors">
+                <button className="mt-4 text-[#0FB5B5] flex items-center hover:text-[#0A8F8F] transition-colors">
                   Learn more <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
               </motion.div>
@@ -132,7 +140,7 @@ const Index = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-primary font-semibold">Innovation Hub</span>
+              <span className="text-[#0FB5B5] font-semibold tracking-wide">INNOVATION HUB</span>
               <h2 className="mt-4 text-3xl font-bold text-text">
                 Leading the Future of Healthcare
               </h2>
@@ -140,7 +148,7 @@ const Index = () => {
                 Our state-of-the-art research facilities and dedicated team of scientists work tirelessly to develop breakthrough treatments and innovative healthcare solutions.
               </p>
               <div className="mt-8">
-                <button className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary-dark transition-colors flex items-center">
+                <button className="bg-[#0FB5B5] text-white px-8 py-3 rounded-full hover:bg-[#0A8F8F] transition-colors flex items-center shadow-md">
                   View Research <ChevronRight className="ml-2 h-5 w-5" />
                 </button>
               </div>
