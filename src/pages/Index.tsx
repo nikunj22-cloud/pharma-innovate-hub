@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Microscope, Flask, HeartPulse, ChevronRight, ArrowRight } from "lucide-react";
+import { Microscope, Beaker, HeartPulse, ChevronRight, ArrowRight } from "lucide-react";
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -87,7 +87,7 @@ const Index = () => {
                 description: "Advancing medical science through innovative research",
               },
               {
-                icon: <Flask className="h-8 w-8" />,
+                icon: <Beaker className="h-8 w-8" />,
                 title: "Clinical Solutions",
                 description: "State-of-the-art treatments for better patient care",
               },
