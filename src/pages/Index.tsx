@@ -19,17 +19,17 @@ const Index = () => {
                 className="h-12 w-auto"
               />
               <div className="flex flex-col">
-                <span className="text-[#0FB5B5] text-2xl font-bold tracking-wide">GRECO</span>
+                <span className="text-[#33C3F0] text-2xl font-bold tracking-wide">GRECO</span>
                 <span className="text-[#4A5568] text-sm font-medium tracking-wider">PHARMACEUTICALS</span>
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Products</a>
-              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Research</a>
-              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">About</a>
-              <a href="#" className="text-[#0FB5B5] hover:text-[#0A8F8F] transition-colors font-medium">Contact</a>
+              <a href="#" className="text-[#33C3F0] hover:text-[#1EAEDB] transition-colors font-medium">Products</a>
+              <a href="#" className="text-[#33C3F0] hover:text-[#1EAEDB] transition-colors font-medium">Research</a>
+              <a href="#" className="text-[#33C3F0] hover:text-[#1EAEDB] transition-colors font-medium">About</a>
+              <a href="#" className="text-[#33C3F0] hover:text-[#1EAEDB] transition-colors font-medium">Contact</a>
             </div>
-            <button className="bg-[#0FB5B5] text-white px-6 py-2 rounded-full hover:bg-[#0A8F8F] transition-colors shadow-md">
+            <button className="bg-[#33C3F0] text-white px-6 py-2 rounded-full hover:bg-[#1EAEDB] transition-colors shadow-md">
               Healthcare Portal
             </button>
           </div>
@@ -45,7 +45,7 @@ const Index = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-[#0FB5B5] font-semibold tracking-wide">ADVANCING HEALTHCARE</span>
+              <span className="text-[#33C3F0] font-semibold tracking-wide">ADVANCING HEALTHCARE</span>
               <h1 className="mt-4 text-5xl font-bold text-[#1A202C] leading-tight">
                 Innovative Solutions for a Healthier Tomorrow
               </h1>
@@ -53,10 +53,10 @@ const Index = () => {
                 Dedicated to improving lives through groundbreaking pharmaceutical research and development. Our commitment brings hope to millions worldwide.
               </p>
               <div className="mt-8 flex space-x-4">
-                <button className="bg-[#0FB5B5] text-white px-8 py-3 rounded-full hover:bg-[#0A8F8F] transition-colors flex items-center shadow-md">
+                <button className="bg-[#33C3F0] text-white px-8 py-3 rounded-full hover:bg-[#1EAEDB] transition-colors flex items-center shadow-md">
                   Explore Solutions <ChevronRight className="ml-2 h-5 w-5" />
                 </button>
-                <button className="border-2 border-[#0FB5B5] text-[#0FB5B5] px-8 py-3 rounded-full hover:bg-[#0FB5B5]/5 transition-colors">
+                <button className="border-2 border-[#33C3F0] text-[#33C3F0] px-8 py-3 rounded-full hover:bg-[#33C3F0]/5 transition-colors">
                   Learn More
                 </button>
               </div>
@@ -112,10 +112,10 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
               >
-                <div className="text-[#0FB5B5] mb-4">{solution.icon}</div>
+                <div className="text-[#33C3F0] mb-4">{solution.icon}</div>
                 <h3 className="text-xl font-semibold text-[#1A202C] mb-2">{solution.title}</h3>
                 <p className="text-[#4A5568]">{solution.description}</p>
-                <button className="mt-4 text-[#0FB5B5] flex items-center hover:text-[#0A8F8F] transition-colors">
+                <button className="mt-4 text-[#33C3F0] flex items-center hover:text-[#1EAEDB] transition-colors">
                   Learn more <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
               </motion.div>
@@ -140,7 +140,7 @@ const Index = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-[#0FB5B5] font-semibold tracking-wide">INNOVATION HUB</span>
+              <span className="text-[#33C3F0] font-semibold tracking-wide">INNOVATION HUB</span>
               <h2 className="mt-4 text-3xl font-bold text-[#1A202C]">
                 Leading the Future of Healthcare
               </h2>
@@ -148,7 +148,7 @@ const Index = () => {
                 Our state-of-the-art research facilities and dedicated team of scientists work tirelessly to develop breakthrough treatments and innovative healthcare solutions.
               </p>
               <div className="mt-8">
-                <button className="bg-[#0FB5B5] text-white px-8 py-3 rounded-full hover:bg-[#0A8F8F] transition-colors flex items-center shadow-md">
+                <button className="bg-[#33C3F0] text-white px-8 py-3 rounded-full hover:bg-[#1EAEDB] transition-colors flex items-center shadow-md">
                   View Research <ChevronRight className="ml-2 h-5 w-5" />
                 </button>
               </div>
